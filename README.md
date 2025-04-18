@@ -11,7 +11,7 @@ Requirements:
 
 TIBasicConverter.py -- WIP 
 
-For now check out tiny.cc/mathprojconverter by my friend although it is not as robust 
+For now check out https://tiny.cc/mathprojconverter/ by my friend although it is not as robust 
 
 ## Failures
 
