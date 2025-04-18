@@ -17,5 +17,5 @@ For now check out tiny.cc/mathprojconverter by my friend although it is not as r
 
 Failed stuff can be found [here](/failed%20stuff/) (warning messy)
 
-_Licensed under the MIT License_1
+_Licensed under the MIT License_
 <sub><sup>might switch to the wtfpl soon</sup></sub>
