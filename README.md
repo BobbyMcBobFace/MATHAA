@@ -5,9 +5,9 @@ Dont expect any good repo practises this is literally a dumping ground
 
 ## Files
 
-[LaTeXTOASCII.py](/LaTeXTOASCII.py) -- Takes in _expressions.txt_ with LaTeX equations as input and outputs ASCII equations. -- useful for converting LaTeX eqn's from desmos into plaintext
+[LaTeXTOASCII.py](/LaTeXTOASCII/LaTeXTOASCII.py) -- Takes in _expressions.txt_ with LaTeX equations as input and outputs ASCII equations. -- useful for converting LaTeX eqn's from desmos into plaintext
 Requirements: 
-- expressions.txt containing LaTeX equations see [expressions.txt.sample](/expressions.txt.sample)
+- expressions.txt containing LaTeX equations see [expressions.txt.sample](/LaTeXTOASCII/expressions.txt.sample)
 - pylatexenc `pip install pylatexenc` 
 
 TIBasicConverter.py -- WIP 

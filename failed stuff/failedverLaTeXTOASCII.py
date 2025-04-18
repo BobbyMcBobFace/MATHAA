@@ -8,7 +8,7 @@ def latex_to_text(latex_code):
 def parse_latex_equation(latex_code):
     """Parse the LaTeX equation and return a list of expressions and conditions."""
     # Simplistic heuristic to parse LaTeX equations
-    # This is a basic parser and may not handle all cases
+    # This is a basic parser and may not handle all cases -- Contribute if yw
     expressions = []
     conditions = []
     for line in latex_code.split('\n'):
