@@ -8,7 +8,8 @@ def check_is_equation_ymxc(eqn):
     else:
         return False
 
-def utility_daemon(eqn):
+# Function to check for non-implicit equation
+def utility_function(eqn):
     if check_is_equation_ymxc(eqn) != True:
         print("Format Incorrect! Please Manually Add" + "\n")
         badeqn.write(eqn + "\n")
@@ -24,8 +25,6 @@ def utility_daemon(eqn):
         goodeqn.write(expr + "\n")
         goodeqn.write(constraints + "\n" + "\n")   
         
-                
-
 
 # Main
 f = open("input.txt", "r")
@@ -37,7 +36,7 @@ for x in f:
     if not x:
         continue
     print("Current Equation Is:", x)
-    utility_daemon(x)
+    utility_function(x)
     
 f.close()
 badeqn.close()
