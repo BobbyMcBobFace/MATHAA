@@ -9,7 +9,7 @@ unicode_to_ascii = {
     '≈': '~=',
     '→': '->',
     '∞': 'infinity',
-    'π': 'pi',
+    'π': '3.1415',
     '∑': 'sum',
     '−': '-',   # minus (U+2212) to hyphen-minus
     '×': '*',
