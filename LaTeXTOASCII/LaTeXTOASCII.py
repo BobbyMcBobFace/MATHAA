@@ -41,6 +41,7 @@ for x in f:
     if not x:
         continue
     print("LaTeX Equation: ", x)
+    x = x.replace('\\\\', '\\ \\')
     text = LatexNodes2Text().latex_to_text(x)
     text = replace_unicode_with_ascii(text)
     text = remove_extra_spaces(text).strip()  # Stripping unnecessary spaces here
