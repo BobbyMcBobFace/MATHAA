@@ -19,9 +19,9 @@ Requirements:
 
 ## Roadmap
 
--[] Add conversion support to ti-basic piecewise( and etc for non-implicit graphs in [CONVERTERv0.py](/CONVERTER/CONVERTERv0.py)
--[] Add support to fully produce a complete .8xp file that can be uploaded to the calculator to run
--[] Add support for the rest of the graphs.
+- [x]  Add conversion support to ti-basic piecewise( and etc for non-implicit graphs in [CONVERTERv0.py](/CONVERTER/CONVERTERv0.py
+- [ ]  Add support to fully produce a complete .8xp file that can be uploaded to the calculator to run
+- [ ] Add support for the rest of the graphs.
 
 For now check out <https://tiny.cc/mathprojconverter/> by my senior although it is not as robust
 
