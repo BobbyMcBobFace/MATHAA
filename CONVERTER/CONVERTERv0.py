@@ -24,7 +24,6 @@ def utility_function(eqn):
         goodeqn.write(eqn + "\n")
         goodeqn.write(expr + "\n")
         goodeqn.write(constraints + "\n" + "\n")   
-        
 
 # Main
 f = open("input.txt", "r")
