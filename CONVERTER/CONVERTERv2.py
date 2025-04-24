@@ -15,7 +15,7 @@ def identify_function_type(expression):
         return "Quadratic"
     if "log" in expression:
         return "Logarithmic"
-    if "sqrt" in expression or "?" in expression:
+    if "sqrt" in expression:
         return "Radical"
     if "^" in expression:
         return "Exponential"
