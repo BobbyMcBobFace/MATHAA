@@ -1,0 +1,49 @@
+/* Main Screen */
+Screen {
+    layout: vertical;
+    padding: 1;
+    background: #232634;  /* Crust */
+    color: #c6d0f5;  /* Text */
+}
+
+/* Main Content */
+#main {
+    padding: 2;
+    background: #292c3c; /* Mantle */
+}
+
+/* Header */
+Header {
+    background: #303446; /* Base */
+    color: #c6d0f5;  /* Text */
+    padding: 1;
+}
+
+/* Labels */
+.label {
+    color: #f2d5cf; /* Rosewater */
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+/* Box for equations and output */
+.box {
+    background: #414559; /* Surface 0 */
+    padding: 1;
+    margin-bottom: 2;
+    text-style: bold;
+}
+
+/* Input box */
+#color_input {
+    padding: 0;
+    background: #303446; /* Base */
+    color: #c6d0f5;  /* Text */
+}
+
+/* Footer */
+Footer {
+    background: #292c3c; /* Mantle */
+    color: #c6d0f5; /* Text */
+    padding: 1;
+}
