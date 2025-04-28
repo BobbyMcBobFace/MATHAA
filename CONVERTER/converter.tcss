@@ -1,0 +1,36 @@
+/* converter.tcss - Horizontally centered input with boxed displays */
+
+Screen {
+    layout: vertical;
+}
+
+
+
+#eq_display {
+    width: 90%;
+    min-width: 60;
+    padding: 1;
+    border: round;
+    margin: 1 0;          /* Remove horizontal margin for better centering */
+    content-align: center middle;
+}
+
+#piecewise_display {
+    width: 90%;
+    min-width: 60;
+    padding: 1;
+    border: round;
+    margin: 1 0;
+    content-align: center middle;
+}
+
+#counter_display {
+    width: 90%;
+    margin: 1 0;
+    text-align: center;
+}
+
+Input {
+    border: round;
+}
+
