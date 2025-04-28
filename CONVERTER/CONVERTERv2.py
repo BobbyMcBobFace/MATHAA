@@ -43,12 +43,15 @@ invalid_equations = []
 with open("input.txt", "r") as input_file:
     for line in input_file:
         cleaned_line = line.strip()
+        print("Current Equation Is: " + cleaned_line)
         if not cleaned_line:
             continue
         if not is_valid_equation(cleaned_line):
+            print("Line Invalid! Add Manually.\n")
             invalid_equations.append(cleaned_line)
             continue
 
+        print("Line Valid! Proceeding.\n")
         match = re.match(r'\s*(y|x)\s*=\s*(?P<expression>[^{{]+)\s*({(?P<constraints>[^}]+)})?', cleaned_line)
         expression = match.group("expression").strip()
         constraints = match.group("constraints") if match.group("constraints") else ""
